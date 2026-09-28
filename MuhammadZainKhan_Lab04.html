@@ -1,4 +1,43 @@
+<!-- Task 1 -->
 <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 10px;
+        }
+
+        .main {
+            grid-column: span 8;
+            background: lightblue;
+            padding: 20px;
+        }
+
+        .sidebar {
+            grid-column: span 4;
+            background: lightgreen;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>12 Column Grid Example</h2>
+
+    <div class="grid">
+        <div class="main">Main Content (8 Columns)</div>
+        <div class="sidebar">Sidebar (4 Columns)</div>
+    </div>
+
+</body>
+</html>
+
+
+
+<!-- Task 2 -->
+<!-- <!DOCTYPE html>
 <html>
 
 <head>
@@ -92,4 +131,4 @@
 
 </body>
 
-</html>
+</html> -->
